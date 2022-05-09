@@ -14,7 +14,26 @@ ul{
 a{
     text-decoration: none;
 }
-
+/* HEADER */
+header{
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    display: flex;
+}
+.header-menu{
+    font-size: 15px;
+    background-color: grey;
+    border-radius: 7px;
+    color: white;
+    padding: 5px;
+}
+.header-menu li{
+    display: inline-block;
+}
+.margin-right{
+    margin-right: 5px;
+}
 /* MAIN */
 main{
     background-color: black;
@@ -76,12 +95,6 @@ nav{
     flex-direction: column;
     justify-content: center;
 }
-.arrow-up{
-    padding-top: 40px;
-}
-.no-padd-right{
-    margin-right: 0;
-}
 #btn-exit{
     background-color: #4A4A4A;
     color: red;
@@ -91,4 +104,7 @@ nav{
 #btn-exit a{
     color: red;
     padding: 0 20px;
+}
+.i-green{
+    color:#4BC800;
 }
